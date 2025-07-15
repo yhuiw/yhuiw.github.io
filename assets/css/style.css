@@ -1,3 +1,4 @@
+/* microsoft-style acrylic design */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 100%);
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
@@ -83,7 +84,7 @@ body {
     margin: 0 auto;
 }
 
-/* home */
+/* main content */
 .main-content {
     display: grid;
     gap: 30px;
@@ -101,7 +102,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* skills */
+/* skills section */
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +120,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/* projects */
+/* projects section */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -182,7 +183,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* contact */
+/* contact section */
 .contact-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -210,8 +211,10 @@ body {
     transform: translateY(-2px);
 }
 
-.contact-btn .icon {
+.contact-btn i {
     font-size: 1.2em;
+    width: 20px;
+    text-align: center;
 }
 
 /* footer */
@@ -222,6 +225,7 @@ body {
     margin-top: 20px;
 }
 
+/* responsive design */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
