@@ -1,95 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: rgba(255, 255, 255, 0.8);
-      backdrop-filter: blur(20px);
-      color: #1b1b1b;
-    }
-    header {
-      background: rgba(240, 240, 240, 0.9);
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      border-radius: 0 0 12px 12px;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #0078d4;
-    }
-    main {
-      padding: 2rem;
-    }
-    section {
-      background: rgba(255,255,255,0.6);
-      border-radius: 12px;
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    img.project-img {
-      width: 100%;
-      max-width: 600px;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: rgba(240,240,240,0.9);
-      border-radius: 12px 12px 0 0;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-  
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Brief bio or intro text goes here. Mention interests or field of work.</p>
-    </section>
+    <div class="container">
+        <!-- header section -->
+        <header class="header-card">
+            <div class="profile-section">
+                <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="profile-info">
+                    <h1>Your Name</h1>
+                    <p class="title">Software Developer</p>
+                    <p class="bio">Passionate about creating innovative solutions and building amazing experiences</p>
+                </div>
+            </div>
+        </header>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div>
-        <h3><a href="https://github.com/yourusername/project1">Project 1</a></h3>
-        <p>Short description of what the project does and your role in it.</p>
-        <img src="images/project1.png" alt="Project 1 Screenshot" class="project-img" />
-      </div>
-      <div>
-        <h3><a href="https://github.com/yourusername/project2">Project 2</a></h3>
-        <p>Description of this project with links and visuals if needed.</p>
-        <img src="images/project2.png" alt="Project 2 Screenshot" class="project-img" />
-      </div>
-    </section>
+        <!-- main content -->
+        <main class="main-content">
+            <!-- about section -->
+            <section class="card about-card">
+                <h2>About Me</h2>
+                <p>I'm a software developer with expertise in web development, machine learning, and cloud technologies. I love creating efficient, scalable solutions that make a difference.</p>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Azure</span>
+                </div>
+            </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
-      <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
-    </section>
-  </main>
+            <!-- projects section -->
+            <section class="card projects-card">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="assets/images/project1.jpg" alt="Project 1">
+                        <h3>Project Name</h3>
+                        <p>Brief description of the project and technologies used</p>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1" class="btn">GitHub</a>
+                            <a href="https://project1-demo.com" class="btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="assets/images/project2.jpg" alt="Project 2">
+                        <h3>Another Project</h3>
+                        <p>Description of another interesting project you've worked on</p>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" class="btn">GitHub</a>
+                            <a href="https://project2-demo.com" class="btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+            <!-- contact section -->
+            <section class="card contact-card">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing new opportunities and interesting projects</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-btn">
+                        <span class="icon">📧</span>
+                        Email
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" class="contact-btn">
+                        <span class="icon">💼</span>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/yourusername" class="contact-btn">
+                        <span class="icon">🐱</span>
+                        GitHub
+                    </a>
+                    <a href="https://twitter.com/yourusername" class="contact-btn">
+                        <span class="icon">🐦</span>
+                        Twitter
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
