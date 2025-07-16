@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "home": {
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    "about": {
+      "en": "About",
+      "fr": "À propos"
+    },
+    "projects": {
+      "en": "Projects",
+      "fr": "Projets"
+    },
+    "contact": {
+      "en": "Contact",
+      "fr": "Contact"
+    }
+  },
+  "hero": {
+    "greeting": {
+      "en": "Hello, I'm Your Name",
+      "fr": "Bonjour, je suis Votre Nom"
+    },
+    "subtitle": {
+      "en": "I'm a passionate developer creating amazing web experiences",
+      "fr": "Je suis un développeur passionné créant des expériences web extraordinaires"
+    }
+  },
+  "sections": {
+    "about_title": {
+      "en": "About Me",
+      "fr": "À propos de moi"
+    },
+    "projects_title": {
+      "en": "My Projects",
+      "fr": "Mes Projets"
+    },
+    "contact_title": {
+      "en": "Contact Me",
+      "fr": "Me Contacter"
+    }
+  },
+  "contact": {
+    "description": {
+      "en": "Feel free to reach out to me through any of the following channels:",
+      "fr": "N'hésitez pas à me contacter via l'un des canaux suivants :"
+    }
+  },
+  "footer": {
+    "copyright": {
+      "en": "© 2024 Your Name. All rights reserved.",
+      "fr": "© 2024 Votre Nom. Tous droits réservés."
+    }
+  },
+  "common": {
+    "email": {
+      "en": "Email",
+      "fr": "E-mail"
+    },
+    "github": {
+      "en": "GitHub",
+      "fr": "GitHub"
+    },
+    "linkedin": {
+      "en": "LinkedIn",
+      "fr": "LinkedIn"
+    }
+  }
+}

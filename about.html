@@ -6,6 +6,7 @@
     <title>About Me</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,16 +15,18 @@
     <div class="nav-container">
         <a href="index.html" class="nav-brand">Home</a>
         <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="about.html" class="nav-link active">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a href="publications.html" class="nav-link">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a href="news.html" class="nav-link">Projects</a>
-            </li>
+            <li><a href="about.html" class="nav-link active">About Me</a></li>
+            <li><a href="publication.html" class="nav-link">Publications</a></li>
+            <li><a href="news.html" class="nav-link">News</a></li>
         </ul>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-checkbox">
+            <label for="theme-checkbox">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <div class="toggle-ball"></div>
+            </label>
+        </div>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -32,55 +35,31 @@
     </div>
 </nav>
 
-<!-- main content -->
 <main class="main-content">
     <section class="page-header">
         <div class="container">
             <h1>Yihui 'Alex' Wei</h1>
-            <p>Learn more about my background and interests</p>
+            <p><i>Do what's right. Not what's easy.</i></p>
         </div>
     </section>
 
     <section class="about-content">
         <div class="container">
             <div class="about-grid">
-                <div class="about-text">
-                    <h2>Hi there! Welcome to my homepage.</h2>
-                    <p>I am a [Your Position] in the [Department] at [University], advised by Prof. [Advisor Name]. I began my [degree type] studies in [Year].</p>
-
-                    <p>My research interests are focused on [your research areas]. Specifically, I am passionate about [specific topics].</p>
+                <div class="about-text full-width">
+                    <h2>You got me! Welcome to my homepage.</h2>
+                    <p>I am a master student in the Electrical Engineering at Columbia University. I began my graduate studies in 2024. I will work with Prof. James Anderson's group starting Fall 2025 on efficient and reliable decision-making for few-shot adaptation in heterogeneous environments.</p>
+                    <p>My research passion are focused on mathematical control & optimization, as well as its real-world implementation in distributed smart grid combining reinforcement learning. I also have a strong background in hardware, specifically, VLSI and PCB design.</p>
 
                     <h3>Education</h3>
-
                     <div class="education-item">
-                        <h4>M.S. in Electrical Engineering</h4>
-                        <p>Columbia University, New York, 2026</p>
+                        <h4>M.S. in Electrical Engineering, exp. 2025</h4>
+                        <p>Columbia University, New York</p>
                     </div>
-
                     <div class="education-item">
-                        <h4>B.Eng. in Electrical Engineering</h4>
-                        <p>McGill University, Montreal, 2024</p>
-                        <p>advisor: Prof. Zeljko Zilic</p>
-                    </div>
-
-                    <h3>Research Interests</h3>
-                    <ul class="research-list">
-                        <li>Control & Optimization</li>
-                        <li>Smart Grid</li>
-                        <li>VLSI</li>
-                    </ul>
-                </div>
-
-                <div class="about-sidebar">
-                    <div class="profile-card">
-                        <img src="images/profile.jpg" alt="Profile Picture">
-                        <h3>Reach Me</h3>
-
-                        <div class="contact-info">
-                            <p><strong>e-mail:</strong> yihui.w@columbia.edu</p>
-                            <p><strong>Office:</strong> Room XXX, Building Name</p>
-                            <p><strong>cell:</strong> +1 (929) 235-5052</p>
-                        </div>
+                        <h4>B.Eng. in Electrical Engineering, 2024</h4>
+                        <p>McGill University, Montréal</p>
+                        <p>Advisor: Prof. Zeljko Zilic</p>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@
     <title>404 Alex Found</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,16 +15,18 @@
     <div class="nav-container">
         <a href="index.html" class="nav-brand">Home</a>
         <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a href="publications.html" class="nav-link">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a href="news.html" class="nav-link">Projects</a>
-            </li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="publication.html" class="nav-link">Publications</a></li>
+            <li><a href="news.html" class="nav-link">News</a></li>
         </ul>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-checkbox">
+            <label for="theme-checkbox">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <div class="toggle-ball"></div>
+            </label>
+        </div>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -35,17 +38,19 @@
 <main class="main-content">
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1>You Got Me!</h1>
-                <p class="hero-subtitle">M.S. in E</p>
-                <p class="hero-description">Do what's right. Not what's easy.</p>
-                <div class="hero-buttons">
-                    <a href="about.html" class="btn btn-primary">Learn More</a>
-                    <a href="publications.html" class="btn btn-secondary">Publications</a>
+            <div class="hero-flex">
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Profile Picture">
                 </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/profile.jpg" alt="Profile Picture">
+                <div class="hero-content">
+                    <h1>Yihui 'Alex' Wei</h1>
+                    <p class="hero-subtitle">Student Research Assistant, Electrical Engineering</p>
+                    <p class="hero-description">Columbia University in the City of New York</p>
+                    <div class="hero-buttons">
+                        <a href="about.html" class="btn btn-primary">Learn More</a>
+                        <a href="publication.html" class="btn btn-secondary">Publications</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -54,17 +59,24 @@
         <div class="container">
             <div class="info-grid">
                 <div class="info-card">
-                    <h3>Research</h3>
-                    <p>Brief description of your research interests</p>
+                    <h3>Research Interests</h3>
+                    <p>Control & Optimization</p>
+                    <p>Smart Grid</p>
+                    <p>Very-Large-Scale Integration</p>
                 </div>
                 <div class="info-card">
-                    <h3>Education</h3>
-                    <p>Your current educational status</p>
+                    <h3>Quick Facts</h3>
+                    <p>I love drawing. Both electrically and aesthetically.</p>
+                    <p>On a USPA A (solo skydiving) License training!</p>
+                    <p>Expert in long-distance running and cycling (was).</p>
                 </div>
-                <div class="info-card">
+                <div class="info-card contact-card">
                     <h3>Contact</h3>
-                    <p>yihui.w@columbia.edu</p>
-                    <p></p>
+                    <div class="contact-icons">
+                        <a href="mailto:yw4467@columbia.edu" title="e-mail"><i class="fas fa-envelope"></i><span>e-mail</span></a>
+                        <a href="https://github.com/yhuiw" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+                        <a href="https://linkedin.com/in/yihuiwei" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+                    </div>
                 </div>
             </div>
         </div>
