@@ -3,90 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex's Home</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>404 Alex Found</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="header-card">
-            <div class="profile-section">
-                <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-img">
-                <div class="profile-info">
-                    <h1>Yihui 'Alex` Wei</h1>
-                    <p class="title">Electrical Engineering</p>
-                    <p class="bio">Passionate about creating innovative solutions and building amazing experiences</p>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-brand">Home</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="publications.html" class="nav-link">Publications</a>
+            </li>
+            <li class="nav-item">
+                <a href="news.html" class="nav-link">Projects</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<main class="main-content">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>You Got Me!</h1>
+                <p class="hero-subtitle">M.S. in E</p>
+                <p class="hero-description">Do what's right. Not what's easy.</p>
+                <div class="hero-buttons">
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                    <a href="publications.html" class="btn btn-secondary">Publications</a>
                 </div>
             </div>
-        </header>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
 
-        <!-- main content -->
-        <main class="main-content">
-            <!-- about section -->
-            <section class="card about-card">
-                <h2>About Me</h2>
-                <p>I'm a software developer with expertise in web development, machine learning, and cloud technologies. I love creating efficient, scalable solutions that make a difference.</p>
-                <div class="skills">
-                    <span class="skill-tag">MATLAB</span>
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Java</span>
-                    <span class="skill-tag">JS</span>
-                    <span class="skill-tag">Azure</span>
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Research</h3>
+                    <p>Brief description of your research interests</p>
                 </div>
-            </section>
-
-            <!-- projects section -->
-            <section class="card projects-card">
-                <h2>Featured Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-item">
-                        <img src="assets/images/project1.jpg" alt="Project 1">
-                        <h3>Project Name</h3>
-                        <p>Brief description of the project and technologies used</p>
-                        <div class="project-links">
-                            <a href="https://github.com/yourusername/project1" class="btn">GitHub</a>
-                            <a href="https://project1-demo.com" class="btn">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <img src="assets/images/project2.jpg" alt="Project 2">
-                        <h3>Another Project</h3>
-                        <p>Description of another interesting project you've worked on</p>
-                        <div class="project-links">
-                            <a href="https://github.com/yourusername/project2" class="btn">GitHub</a>
-                            <a href="https://project2-demo.com" class="btn">Live Demo</a>
-                        </div>
-                    </div>
+                <div class="info-card">
+                    <h3>Education</h3>
+                    <p>Your current educational status</p>
                 </div>
-            </section>
-
-            <!-- contact section -->
-            <section class="card contact-card">
-                <h2>Get In Touch</h2>
-                <p>I'm always open to discussing new opportunities and interesting projects</p>
-                <div class="contact-links">
-                    <a href="mailto:yw4467@columbia.edu" class="contact-btn">
-                        <i class="fas fa-envelope"></i>
-                        Email
-                    </a>
-                    <a href="https://linkedin.com/in/yihuiwei" class="contact-btn">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                    <a href="https://github.com/yhuiw" class="contact-btn">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                    <!-- <a href="https://twitter.com/" class="contact-btn">
-                        <span class="icon">🐦</span>
-                        Curriculum Vitae
-                    </a> -->
+                <div class="info-card">
+                    <h3>Contact</h3>
+                    <p>yihui.w@columbia.edu</p>
+                    <p></p>
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>
+    </section>
+</main>
 
-        <footer class="footer">
-            <p>&copy; 2025 Yihui Wei. All rights reserved.</p>
-        </footer>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Yihui Wei. All rights reserved.</p>
     </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

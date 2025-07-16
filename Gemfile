@@ -4,7 +4,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-sitemap"
 
-# windows and jruby specific
+# windows / jruby specific
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
