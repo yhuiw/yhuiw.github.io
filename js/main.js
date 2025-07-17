@@ -1,5 +1,4 @@
-// mobile nav toggle
-const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger'); // mobile nav toggle
 const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener('click', () => {
@@ -7,15 +6,13 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-// close mobile nav on link click
 document.querySelectorAll('.nav-link').forEach(link =>
-    link.addEventListener('click', () => {
+    link.addEventListener('click', () => {  // close mobile nav on link click
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
     })
 );
 
-// theme toggle
 const themeCheckbox = document.getElementById('theme-checkbox');
 const currentTheme = localStorage.getItem('theme');
 
@@ -41,14 +38,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor =>
     })
 );
 
-// navbar scroll effect
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        nav.style.background = 'rgba(255,255,255,0.15)';
+        nav.style.background = 'rgba(255, 255, 255, 0.15)';
         nav.style.backdropFilter = 'blur(25px)';
     } else {
-        nav.style.background = 'rgba(255,255,255,0.1)';
+        nav.style.background = 'rgba(255, 255, 255, 0.1)';
         nav.style.backdropFilter = 'blur(20px)';
     }
 });

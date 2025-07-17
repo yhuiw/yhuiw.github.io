@@ -327,15 +327,12 @@ body.dark-mode footer {
     .hero-content h1 {
         font-size: 2rem;
     }
-
     .hero-buttons {
         flex-direction: column;
     }
-
     .info-grid {
         grid-template-columns: 1fr;
     }
-
     .theme-toggle {
         margin-left: 10px;
     }
