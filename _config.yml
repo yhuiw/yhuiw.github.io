@@ -3,13 +3,11 @@ email: yihui.w@columbia.edu
 description: "This is a personal website for professional purposes"
 baseurl: ""
 url: "https://yhuiw.github.io"
-github_username: yhuiw
-linkedin_username: yihuiwei
 
 permalink: pretty
-
 markdown: kramdown
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
